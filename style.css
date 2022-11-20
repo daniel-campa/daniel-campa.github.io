@@ -1,0 +1,237 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+.body1 {
+  background-image: url(death-valley.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+li, a {
+  font-weight: 500;
+  font-size: 16px;
+  color: #444444;
+  text-decoration: none;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 10%;
+  background-color: #dddddd;
+}
+
+.nav_links {
+  list-style: none;
+}
+.nav_links li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+.nav_links li a {
+  transition: all 0.3s ease 0s;
+}
+.nav_links li a:hover {
+  color: maroon;
+}
+h1 {
+  text-align: center;
+  font-size: 80px;
+  color: white;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-shadow: 5px 5px #333333
+}
+h2 {
+  color: maroon;
+  text-align: center;
+  font-size: 50px;
+  padding: 10px 0px;
+  margin:0px 10%;
+}
+h3 {
+  color: #666666;
+  text-align: center;
+  font-size: 30px;
+  padding: 10px;
+  margin-top: 30px;
+}
+.button1 {
+  text-align: center;
+  cursor: pointer;
+  justify-content: normal;
+  color: #2ea3f2;
+  background-color: white;
+  border: 2px solid#2ea3f2;
+  padding: 16px;
+  transition-duration: 0.4s;
+  font-size: 18px;
+  margin: 10px auto;
+  display: block;
+}
+.button1:hover {
+  background-color: #2ea3f2;
+  color: white;
+}
+.button2 {
+  text-align: center;
+  cursor: pointer;
+  justify-content: normal;
+  margin-left: 25%;
+  color: #ffffff;
+  background-color: maroon;
+  border: 3px solid#000000;
+  padding: 16px;
+  margin-top: 5px;
+  transition-duration: 0.4s;
+  font-size: 18px;
+}
+.button2:hover {
+  padding: 16px 24px;
+}
+input {
+  margin: 8px 10px;
+  padding-left: 10px;
+  line-height: 3;
+  font-size: 14px;
+  background-color: #eeeeee;
+  color: #666666;
+}
+input[type="text"],input[type="email"],input[type="tel"] {
+  width: 30%;
+}
+textarea {
+  margin: 8px 10px;
+  padding-left: 10px;
+  line-height: 3;
+  font-size: 14px;
+  background-color: #eeeeee;
+  color: #666666;
+  max-width: 80%;
+}
+label {
+  color: #666666;
+}
+fieldset {
+  margin: 20px 10%;
+}
+h4 {
+  padding:10px;
+  font-size: 40px;
+}
+h5 {
+  padding:10px;
+  font-size: 18px;
+  color: maroon;
+}
+.gallery {
+  padding: 5px;
+  width: 300px;
+  height: auto;
+}
+section {
+  background-color: white;
+}
+table {
+  margin: 50px 20%;
+  border-collapse: collapse;
+  width: 40%;
+}
+th{
+  padding: 5px;
+  font-size: 20px;
+  text-align: left;
+}
+td {
+  padding: 5px;
+  font-size: 20px;
+}
+tr {
+  border-bottom: 1px solid #666666;
+}
+tr:hover {background-color: #D6EEEE;}
+.homeimg {
+  float: right;
+  margin-right: 15%;
+  margin-left: auto;
+  padding-left: 6%;
+  width: 25%;
+}
+.home2img {
+  float: right;
+  margin-right: 200px;
+  padding-left: 80px;
+  width:40%;
+}
+.logo {
+  width: 7%;
+}
+.gruppo {
+  float: left;
+  margin:20px 50px;
+}
+.imgli {
+  padding: 100px;
+  width: 100px;
+}
+.flag {
+  float: right;
+  width: 5%;
+  margin-right: 10%;
+}
+@media only screen and (max-width:600px) {
+  .homeimg {
+    float: none;
+    padding: 0;
+    display: block;
+    margin: auto;
+    width: 50%;
+  }
+  .home2img {
+    float: none;
+    padding: 0;
+    display: block;
+    margin: auto;
+    width: 50%;
+  }
+  .button1 {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+  h1 {
+    font-size: 50px;
+  }
+  .logo {
+    width: 15%;
+  }
+  .button2 {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+  .imgli {
+    margin: 0;
+    padding: 0;
+  }
+  input[type="text"] {
+    width: 50%;
+  }
+  .gallery {
+    margin: auto;
+    max-width: 95%;
+  }
+  table {
+    margin: 20px auto;
+  }
+  .flag {
+    width: 10%;
+    float: none;
+  }
+}

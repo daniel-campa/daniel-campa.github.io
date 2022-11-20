@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <title>Sign Up | Gurdjieff Fourth Way</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="/compass.png">
+  </head>
+  <body>
+    <header>
+      <ul style="width:70px;list-style:none;">
+        <li style="display:inline;"><a href="https://www.facebook.com/people/Gurdjieff-FourthWay/100086740125128/" target="_blank"><img src="facebook.png" alt="facebook logo" width="40%"></a></li>
+        <li style="display:inline;"><img src="whatsapp.png" alt="whatsapp logo" width="40%"></li>
+      </ul>
+      <ul class="nav_links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="workGroup.html">Work Group</a></li>
+        <li><a href="aboutUs.html">About Us</a></li>
+        <li><a href="event.html">Events</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="contactUs.html">Contact Us</a></li>
+      </ul>
+      <img src="compass.png" alt="logo" class="logo">
+    </header>
+    <h3>Sign Up For Work Group</h3>
+    <p style="color:#666666;text-align:center;margin:10px;">
+      <b>Fill out the form below</b><br>
+      This information will be sent to one of our contacts
+    </p>
+    <form action="https://formsubmit.co/stepierott@gmail.com" method="POST" enctype="multipart/form-data" autocomplete="on" style="margin:50px 0px;padding-bottom:20px;">
+      <input type="text" id="name" title="first and last name" placeholder="First and Last name" required autofocus style="margin:10px 10%;" name="First and Last name: "><br>
+      <fieldset required>
+        <legend><b style="color:#666666;">How did you discover the Fourth Way and Gurdjieff's teachings?</b><br></legend>
+        <input type="checkbox" id="books" name="books">
+        <label for="books"> Reading books or exerpts</label><br>
+        <input type="checkbox" id="movies" name="movies">
+        <label for="movies"> Watching movies</label><br>
+        <input type="checkbox" id="internet" name="internet">
+        <label for="internet"> Internet (Youtube, Social Media, etc.)</label><br>
+        <input type="checkbox" id="people" name="people">
+        <label for="people"> Talking to people</label><br>
+        <input type="checkbox" id="other" name="other">
+        <label for="other"> Other</label><br>
+      </fieldset>
+      <fieldset>
+        <legend><b style="color:#666666;">Have you ever read a book on the Fourth Way and Gurdjieff's teachings?</b><br></legend>
+        <input type="radio" id="yesB" name="book" required>
+        <label for="yes"> Yes</label><br>
+        <input type="radio" id="noB" name="book" required>
+        <label for="no"> No</label><br>
+      </fieldset>
+      <fieldset>
+        <legend><b style="color:#666666;">Have you seen the movie "Meetings with Remarkable Men"?</b><br></legend>
+        <input type="radio" id="yesM" name="movie" required>
+        <label for="yes"> Yes</label><br>
+        <input type="radio" id="noM" name="movie" required>
+        <label for="no"> No</label><br>
+      </fieldset>
+      <input type="email" id="email" title="email" placeholder="Email" required style="margin:20px 10%;" name="Email: ">
+      <input type="tel" id="telephone" title="phone number" placeholder="Phone number" required style="margin:20px 0px;" name="Phone number: "><br>
+      <textarea id="info" title="additional information" placeholder="Additional information..." style="margin:20px 10%;" rows="3" cols="170" name="Additional information: "></textarea><br>
+      <button type="submit" class="button1" formtarget="_blank">Submit</button>
+      <input type="hidden" name="_next" value="https://gurdjiefffourthway.com/next.html">
+      <input type="hidden" name="_captcha" value="false">
+    </form>
+  </body>
+</html>
