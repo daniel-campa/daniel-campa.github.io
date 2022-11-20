@@ -3,7 +3,7 @@ html, body {
   width: 100%;
 }
 .body1 {
-  background-image: url(death-valley.jpeg);
+  background-image: url(img/death-valley.jpeg);
   background-size: cover;
   background-repeat: no-repeat;
 }
