@@ -212,7 +212,14 @@ tr:hover {background-color: #D6EEEE;}
 .eventimage {
     display: block;
     float: left;
-    margin: 200px 100px;
+    margin: 200px 50px;
+    position: relative;
+    height: auto;
+}
+.eventimage_reduced {
+    display: block;
+    float: left;
+    margin: 50px 100px;
     position: relative;
     height: auto;
 }
