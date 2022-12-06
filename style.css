@@ -200,7 +200,7 @@ tr:hover {background-color: #D6EEEE;}
     border-width: 2px;
     box-shadow: 0px 18px 25px 0px rgba(0,0,0,0.3);
     max-width: 1080px;
-    margin: auto;
+    margin: 10px auto;
 }
 .nextevent {
     display: block;
@@ -209,17 +209,18 @@ tr:hover {background-color: #D6EEEE;}
     position: relative;
     line-height: 1.2;
 }
+.previousevent {
+    display: block;
+    text-align: center;
+    font-size: 22px;
+    position: relative;
+    line-height: 1.2;
+    padding: 10px;
+}
 .eventimage {
     display: block;
     float: left;
     margin: 200px 50px;
-    position: relative;
-    height: auto;
-}
-.eventimage_reduced {
-    display: block;
-    float: left;
-    margin: 50px 100px;
     position: relative;
     height: auto;
 }
